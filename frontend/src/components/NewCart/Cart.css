@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f4f4f4;
+}
+.wrapper{
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+div.text-uppercase{
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+.btn#sub{
+    font-size: 0.8rem;
+    font-weight: 700;
+    border: 1px solid #ddd;
+}
+.btn#sub:hover{
+    background-color: #333;
+    color: #FFF;
+    border: 1ps solid #333;
+}
+.fa-cog{
+    color: #a8a8a8;
+    font-size: 0.8rem;
+}
+.ml-auto.btn:hover span{
+    color: #333;
+}
+
+.notification{
+    background-color: #54e346;
+    padding: 0px 10px;
+}
+.notification button.btn{
+    background-color: inherit;
+    box-shadow: none;
+}
+.close{
+    font-size: 1rem;
+    font-weight: normal;
+    opacity: 1;
+}
+.close:hover{
+    color: #EEE;
+}
+.alert-dismissible .close{
+    position: unset;
+}
+
+#commentor2,#commentor3{
+    position: absolute;
+    object-fit: cover;
+}
+#commentor1{
+    object-fit: cover;
+}
+
+#commentor2{
+    top: 2px;
+    left: 20px;
+}
+#commentor3{
+    top: 2px;
+    left: 35px;
+}
+.comments{
+    visibility: visible;
+}
+
+
+
+@media(max-width:400px){
+    .notification{
+        font-size: 0.7rem;
+    }
+    .close{
+        font-size: 0.7rem;
+        font-weight: normal;
+        opacity: 1;
+    }
+    .wrapper{
+        padding: 10px;
+    }
+}
